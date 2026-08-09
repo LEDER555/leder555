@@ -14,7 +14,6 @@ jobs:
   generate:
     permissions:
       contents: write
-      users: read# ДОБАВЛЕНО: дает право читать статистику вашего профиля
     runs-on: ubuntu-latest
     timeout-minutes: 5
 
